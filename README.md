@@ -6,6 +6,12 @@ This is done to increase the chance of success in routing and being able to send
 
 The script is kept running indefinitely and try to rebalance every 12 hours by default.
 
+## Launch:
+
+`LIGHTNING_RPC=/home/user/.lighthing/bitcoin/lightnig-rpc ./auto-rebalance.py`
+
+Since the script runs indefinetely you may want to run it in a `screen` or `tmux` session
+
 ## Example output
 
 ```
